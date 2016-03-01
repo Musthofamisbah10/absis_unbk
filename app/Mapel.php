@@ -13,6 +13,8 @@ class Mapel
     private $id_mapel;
 
     public function __construct($tingkat,$bidang=null,$id_mapel=null){
+
+        //diganti SMP
     	if ($tingkat == 'SMA' && $bidang == null) {
     		
     	} else{
